@@ -14,4 +14,4 @@ bp = Blueprint('front', __name__, url_prefix='/')
 @bp.route('/')
 
 def home():
-    return render_template('front/index.html')
+    return render_template('front/base.html')

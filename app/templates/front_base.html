@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
-		<title>Express Logistics Services, Home</title>
+		<title>{% block title %}{% endblock %}</title>
 
 		<link href="favicon.png" type="image/x-icon" rel="shortcut icon">
 		<link href={{ url_for('static', filename="assets/css/master.css")}} rel="stylesheet">
@@ -76,7 +76,11 @@
 				</div><!-- end row-->
 			</div><!-- end container-->
 
-               
+               <!-- Contennts start -->
+			{% block page %}
+
+			{% endblock %}
+			<!-- contents end -->
 
 
           <!-- Footer area starts -->

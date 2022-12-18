@@ -29,10 +29,15 @@ def about():
 
 
 
-# @bp.route('/news')
-# def news():
-#     return render_template('front/index.html')
+@bp.route('/news')
+def news():
+    return render_template('front/blog-main.html')
 
+
+
+@bp.route('/contact')
+def contact():
+    return render_template('front/contact.html')
 
 
 # @bp.route('/quote')
@@ -41,9 +46,6 @@ def about():
 
 
 
-# @bp.route('/contact')
-# def contact():
-#     return render_template('front/index.html')
 
 
 

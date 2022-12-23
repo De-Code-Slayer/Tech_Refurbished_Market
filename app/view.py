@@ -45,6 +45,9 @@ def contact():
 #     return render_template('front/index.html')
 
 
+@bp.route('/product')
+def product():
+    return render_template('product/product.html')
 
 
 

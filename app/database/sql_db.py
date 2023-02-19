@@ -7,6 +7,9 @@ import datetime
 class User(db.Model):
     pass
 
+
+
+# Product Object
 class Product(db.Model):
     pass
 

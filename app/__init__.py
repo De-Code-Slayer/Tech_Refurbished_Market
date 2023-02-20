@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 from flask_sqlalchemy import SQLAlchemy
-from flask import Flask
+from flask import Flask, render_template
 
 # load env var form .env to env
 load_dotenv()
@@ -42,6 +42,20 @@ def create_app(test_config=None):
         os.makedirs(app.instance_path)
     except OSError:
         pass
+
+    # configure error pages
+    @app.errorhandler(404)
+    def page_not_found(e):
+    # note that we set the 404 status explicitly
+      return render_template("error/pages-misc-error.html"), 404
+
+    @app.errorhandler(500)
+    def server_error(e):
+    # note that we set the 500 status explicitly
+      return render_template("error/pages-misc-error.html"), 500
+
+
+
 
 
     from . import dashboard_view,view

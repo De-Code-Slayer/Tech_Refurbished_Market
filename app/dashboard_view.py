@@ -12,3 +12,8 @@ bp = Blueprint('dashboard', __name__, url_prefix='/')
 @bp.route('')
 def dashboard():
     pass
+
+
+@bp.route('/dash')
+def dview():
+    pass

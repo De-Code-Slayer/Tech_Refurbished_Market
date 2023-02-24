@@ -16,4 +16,5 @@ def dashboard():
 
 @bp.route('/dash')
 def dview():
-    pass
+    
+    return render_template()

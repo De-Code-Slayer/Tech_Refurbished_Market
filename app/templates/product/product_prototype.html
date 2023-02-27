@@ -1,41 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS -->
-<link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="custom.css"
-<!-- JavaScript -->
-<script src="bootstrap-4.0.0-dist/js/bootstrap.min.js" ></script>
+{% include 'product_base.html'   %}
 
-    <title>Document</title>
-</head>
-<body>
+{% block main %}
+ 
 
 <div class="information">
-<p>hello</p>
+  <i class="fa-solid fa-file-invoice-dollar"></i> <span class="small-text">Installment Plans</span>
+  <i class="fa-solid fa-person-walking-arrow-loop-left"></i><span class="small-text">Free 30-day returns</span>
+  <i class="fa-solid fa-truck-fast"></i><span class="small-text">Fast standard shipping</span>
+  <i class="fa-solid fa-face-kiss-wink-heart"></i> <span class="small-text">1-year warranty</span>
 </div>
 
 <!-- select form start -->
 <div class="filter-container">
 
 <form action="" method="post">
-  <span>I need a </span>
+  <span class="small-text">I need a </span>
   <!-- checkbox -->
 
   
   
   <div class="checkbox inline" >
     <input id="apple" type="checkbox" name="apple" />
-    <label class="label" for="apple">Apple</label>
+    <label class="label" for="apple">Smart Phones</label>
 
     <input id="pear" type="checkbox" name="pear" />
-    <label class="label" for="pear">Pear</label>
+    <label class="label" for="pear">Computers</label>
 
     <input id="Nokia" type="checkbox" name="nokia" />
-    <label class="label" for="Nokia">Nokia</label>
+    <label class="label" for="Nokia">Game Consoles</label>
   </div>
   <!-- select -->
     <div class="input-group">
@@ -51,6 +43,7 @@
 </div>
 <!-- select form end -->
     <div class="container p-3">
+      <h2>Phones so smart, they’re on the honor roll   (5,000) results</h2>
         <div class="col-12 col-sm-10 col-md-6 col-lg-8 m-auto">
             <div class="row align-items-center">
               <div class="col-md-12 col-12 col-lg-8  mb-5">
@@ -67,8 +60,8 @@
                         <h3>128 GB -Cloud Navy</h3>
                         <h3>Waranty 12 months</h3>
                         <div></div>
-                        <span>starting from</span>
-                        <span>$166.29</span>
+                        <span class="small-text">Starting from</span>
+                        <span class="price">$166.29</span>
                         <div></div>
                       </div>
 
@@ -91,8 +84,8 @@
                         <h3>128 GB -Cloud Navy</h3>
                         <h3>Waranty 12 months</h3>
                         <div></div>
-                        <div class="block">starting from</div>
-                        <span>$166.29</span>
+                        <span class="small-text">Starting from</span>
+                        <span class="price">$166.29</span>
                         <div></div>
                     </div>
 
@@ -101,35 +94,77 @@
               </div>
 
               <div class="col-md-6 col-6  col-lg-4 mb-5">
-                <div class="product">
-                    <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="product  " >
+                  <div class="">
+                      
+                    <div class="product-image-container">
+
+                      <div class="image-box">
+                        <img src="http://placehold.it/">
+                      </div>
                     </div>
+                    <div class="product-image-details">
+                      <h2>Galaxy S20FE 5G</h2>
+                        <h3>128 GB -Cloud Navy</h3>
+                        <h3>Waranty 12 months</h3>
+                        <div></div>
+                        <span class="small-text">Starting from</span>
+                        <span class="price">$166.29</span>
+                        <div></div>
+                    </div>
+
+                  </div>
                   </div>
               </div>
               <div class="col-md-6 col-6 col-lg-4 mb-5">
-                <div class="product" >
-                    <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="product  " >
+                  <div class="">
+                      
+                    <div class="product-image-container">
+
+                      <div class="image-box">
+                        <img src="http://placehold.it/">
+                      </div>
                     </div>
+                    <div class="product-image-details">
+                      <h2>Galaxy S20FE 5G</h2>
+                        <h3>128 GB -Cloud Navy</h3>
+                        <h3>Waranty 12 months</h3>
+                        <div></div>
+                        <span class="small-text">Starting from</span>
+                        <span class="price">$166.29</span>
+                        <div></div>
+                    </div>
+
+                  </div>
                   </div>
               </div>
               <div class="col-md-6 col-6 col-lg-4 mb-5">
-                <div class="product" >
-                    <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="product  " >
+                  <div class="">
+                      
+                    <div class="product-image-container">
+
+                      <div class="image-box">
+                        <img src="http://placehold.it/">
+                      </div>
                     </div>
+                    <div class="product-image-details">
+                      <h2>Galaxy S20FE 5G</h2>
+                        <h3>128 GB -Cloud Navy</h3>
+                        <h3>Waranty 12 months</h3>
+                        <div></div>
+                        <span class="small-text">Starting from</span>
+                        <span class="price">$166.29</span>
+                        <div></div>
+                    </div>
+
+                  </div>
                   </div>
               </div>
             </div>
         </div>
     </div>
     
-    
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-</body>
-</html>
+
+{% endblock %}

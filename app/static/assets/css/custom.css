@@ -1,0 +1,167 @@
+/* for product page */
+body{
+    background-color: #f9f9f9;
+    font-family:  Candara, Arial, Tahoma, Serif;
+
+}
+
+
+
+
+.information{
+
+    background-color: #f2f2f2;
+    margin: auto;
+    height:60px;
+    width:90%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:10px;
+    border-radius: 10px;
+
+    
+}
+
+.mainwhite{
+    background-color:#ffffff;
+}
+
+.product{
+    background-color:#ffffff;
+    
+    box-shadow:  1px 1px#f1f1f1;
+    border-radius: 4%;
+
+}
+
+.product:hover{
+    box-shadow:  3px 3px 7px rgba(0, 0, 0, 0.153);
+    cursor: pointer;
+}
+.filter-container{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    border: rgba(0, 0, 0, 0.105) solid 1px;
+    background-color:#ffffff;
+    
+    
+    
+}
+form{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+select {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 5px;
+    border: rgba(0, 0, 0, 0.433) 1px solid;
+    border-radius:5px;
+    
+}
+
+
+
+ 
+ input[type=checkbox] {
+    display: none;
+ }
+ 
+ /* <!-- Add ✓ on checked before label --> */
+ input:checked + label:before {
+    content: "\2611	";
+    color :rgba(0, 0, 0, 0.651);
+     
+ }
+
+ label{
+    cursor: pointer;
+    border: rgba(0, 0, 0, 0.373) solid 1px;
+    border-radius: 3px;
+    display:inline-block;
+    border:solid 1px rgba(0, 0, 0, 0.664);
+    width: 31%;
+    height:40px;
+    margin-top:10px;
+    color:rgb(3, 2, 1);
+    line-height: 40px;
+    font-size:normal;
+    font-weight:500;
+ }
+ 
+ select{
+    font-size:small;
+    font-weight:500;
+ }
+
+ input + label:before {
+    content: "\2610 ";
+    color :rgba(0, 0, 0, 0.651);
+ }
+ 
+
+ input:checked + label {
+    border: solid 1px black;
+
+ }
+
+ .checkbox{
+    width: 100%;
+    
+ }
+ .label{
+    margin-right:10px ;
+ }
+
+
+ /* product details */
+
+ .product-image-container{
+    border: rgba(0, 0, 0, 0.373) solid 1px;
+ }
+ .product-image-details{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+ }
+
+ .image-box{
+    height:10rem;
+    width :8rem;
+    margin: 0 auto;
+ }
+
+ h2{
+    font-size:small;
+    font-weight:500;
+ }
+
+ h3{
+    font-size:10px;
+    font-weight:300;
+    line-height: 5px;
+ }
+
+ .price{
+    display: block;
+    font-size:0.7rem;
+    font-weight:500;
+    line-height: 30px;
+    line-height: 10px;
+ }
+
+ .small-text{
+    font-size:0.8rem;
+    font-weight:100;
+    color: rgba(0, 0, 0, 0.725);
+ }
+
+ i{
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.534);
+    margin: 10px;
+ }

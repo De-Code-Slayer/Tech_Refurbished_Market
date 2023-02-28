@@ -47,7 +47,8 @@ def contact():
 
 @bp.route('/product')
 def product():
-    return render_template('product/product.html')
+    title =  "This is no Jive the Device will last For live"
+    return render_template('product/product_prototype.html', title=title)
 
 
 

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
 <!-- <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css"> -->
-<link rel="stylesheet" href={{url_for('static', filename="assets/plugins/bootstrap/css/bootstrap.min.css")}}>
+<link rel="stylesheet" href={{url_for('static', filename="assets/bootstrap4/bootstrap.min.css")}}>
 
 <!-- <link rel="stylesheet" href="custom.css" -->
 <link rel="stylesheet" href={{url_for('static', filename="assets/css/custom.css")}}
@@ -15,7 +15,7 @@
 <!-- JavaScript -->
 <script src={{url_for('static', filename="assets/plugins/bootstrap/js/bootstrap.min.js")}} ></script>
 
-    <title>{{Title |"product"}</title>
+    <title>{{title}}</title>
 </head>
 <body>
 {% block main %}

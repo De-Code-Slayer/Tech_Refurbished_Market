@@ -3,13 +3,13 @@ import datetime
 
 
 
-# User Profile Object
-class User(db.Model):
-    pass
+# # User Profile Object
+# class User(db.Model):
+#     pass
 
 
 
-# Product Object
-class Product(db.Model):
-    pass
+# # Product Object
+# class Product(db.Model):
+#     pass
 
